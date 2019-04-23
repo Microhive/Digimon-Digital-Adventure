@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Character" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Notes and Inventory" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Gear" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Boosters" />
+        <item
+            android:id="@+id/nav_exp"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="EXP" />
+    </group>
+
+    <item android:title="Digimon Evolutions">
+        <menu>
+            <item
+                android:id="@+id/nav_fresh"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Fresh" />
+            <item
+                android:id="@+id/nav_intraining"
+                android:icon="@drawable/ic_menu_send"
+                android:title="In-Training" />
+            <item
+                android:id="@+id/nav_rookie"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Rookie" />
+            <item
+                android:id="@+id/nav_champion"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Champion" />
+            <item
+                android:id="@+id/nav_ultimate"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Ultimate" />
+            <item
+                android:id="@+id/nav_mega"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Mega" />
+        </menu>
+    </item>
+
+</menu>
